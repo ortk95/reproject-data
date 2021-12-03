@@ -1,5 +1,5 @@
 # reproject-data
-Python functions to aid in projecting mapped data using pyproj.
+Python functions to aid in projecting mapped data using [pyproj](https://github.com/pyproj4/pyproj).
 
 See `__example()` in `reproject_data.py` for an example of projecting and plotting mapped data. 
 
