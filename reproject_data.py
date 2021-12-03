@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Functions to aid in projecting mapped data using pyproj"""
-import pyproj
-import scipy.interpolate
-import numpy as np
-
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 __date__ = '2021-12-03'
 __author__ = 'Oliver King'
 __email__ = 'ortk1@le.ac.uk'
+__url__ = 'https://github.com/ortk95/reproject-data'
+
+import pyproj
+import scipy.interpolate
+import numpy as np
 
 
 def transform_projection(
@@ -226,7 +227,7 @@ def project_globe(
 
 def __example():
     """
-    Example of using `project_orthographic()` to display an image of Jupiter.
+    Example of using `project_globe()` to display an image of Jupiter.
     """
     print('Running example image projection code...')
     import matplotlib.pyplot as plt
